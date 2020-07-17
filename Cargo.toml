@@ -1,0 +1,8 @@
+[package]
+name = "ra-diesel-bug"
+version = "0.1.0"
+authors = ["Chris Spencer <chris@sheetless.io>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.5", features = ["postgres"] }
